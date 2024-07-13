@@ -21,5 +21,12 @@
         import mysql.connector as sql
         import streamlit as st
         import plotly.express as px
+
+
+  **Importing the Libraries:**
+ 
+   Importing the libraries. As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. If the libraries are not installed already use the below piece of code to install.
+
+        !pip install ["Name of the library"]
     
  
