@@ -99,4 +99,7 @@
 
 
 ### Dataset
-**Dataset Link** : [click here to view](https://github.com/PhonePe/pulse#readme)
+**Dataset Link** : [Dataset](https://github.com/PhonePe/pulse#readme)
+
+### Dashboard Inspired From
+**Link** : [PhonePe Pulse] (https://www.phonepe.com/pulse/)
