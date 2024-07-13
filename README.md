@@ -28,6 +28,13 @@
         import streamlit as st
         import plotly.express as px
 
+#### Step 2:
+**Data Extraction from Github Respository**
 
+  In this project the data has been extracted from the Github respository through scripting and clone the data.
+
+        !git clone [Give the Github clone URL]
+
+        
   
  
