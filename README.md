@@ -68,7 +68,31 @@
                       column1['Year'].append(year)
                       column1['Quarter'].append(int(js.strip('.json')))
 
-Agg_tran=pd.DataFrame(column1)
+          Agg_tran=pd.DataFrame(column1)
 
   
- 
+**Converting the DataFrame to CSV file**
+
+        Agg_tran.to_csv('Agg_tran_path1.csv')
+
+
+#### Step 4:
+**Insering the CSV file into the Database**
+
+  After converting the dataframe into a CSV file we are inserting the data into the MySQL database and transforming the data using the SQL query.
+
+        mysql-connector-python
+
+  The above library is used to connect the MySQL database in Python.
+
+
+#### Step 5:
+**Stremlit Dashboard Creation**
+
+  By using Stremlit and plotly library, we create an interactive and visually appealing dashboard. And we also build a geo visualization in the plotly function. 
+
+
+#### Step 6:
+**Data Retrieval**
+
+  The data can be Retried from the MySQL database and fetch the data into a Pandas dataframe and update the dashboard.
