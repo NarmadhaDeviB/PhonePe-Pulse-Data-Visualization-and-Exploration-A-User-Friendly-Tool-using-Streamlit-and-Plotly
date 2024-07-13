@@ -12,13 +12,14 @@
 
 ### Workflow
 Inserting the Necessary Library:
-  To insert the Necessary library, first import the library, if not the library is import the just install the library by using the !pip install [library name].
+  To insert the Necessary library, first import the library, if not the library is import the just install the library by using the,
+  !pip install [library name].
   Here I have import the libraries such as,
-    1) import os
-    2) import json
-    3) import pandas as pd
-    4) import mysql.connector as sql
-    5) import streamlit as st
-    6) import plotly.express as px
+  import os
+  import json
+  import pandas as pd
+  import mysql.connector as sql
+  import streamlit as st
+  import plotly.express as px
     
  
