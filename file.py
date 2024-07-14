@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 mysql = sql.connect(
     host = "localhost",
     user= "root",
-    password = "mysqlroot",
+    password = "password",
     database ="PhonePe"
   )
 cursor = mysql.cursor()
