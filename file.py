@@ -240,11 +240,11 @@ if selected == "Explore Data":
                             featureidkey='properties.ST_NM',
                             locations='State',
                             color='Total_Amount',
-                            color_continuous_scale='Viridis')
+                            color_discrete_sequence=px.colors.qualitative.Pastel)
 
                 fig.update_geos(fitbounds="locations", visible=False)
-                st.plotly_chart(fig,use_container_width=True)
-                fig.show()
+                st.plotly_chart(fig)
+                #fig.show()
 
             #with col2:
         if Transaction == "Count":
@@ -262,11 +262,11 @@ if selected == "Explore Data":
                             featureidkey='properties.ST_NM',
                             locations='State',
                             color='Total_Transactions',
-                            color_continuous_scale ='Bergeron')
+                            color_discrete_sequence=px.colors.qualitative.Prism)
 
                 fig.update_geos(fitbounds="locations", visible=False)
                 st.plotly_chart(fig,use_container_width=True)
-                fig.show()
+                #fig.show()
 
 
     if Type == "Users":
@@ -290,9 +290,9 @@ if selected == "Explore Data":
                     featureidkey='properties.ST_NM',
                     locations='State',
                     color='Total_App_Opens',
-                    color_continuous_scale='Reds')
+                    color_discrete_sequence=px.colors.qualitative.Antique)
 
-            fig.update_geos(fitbounds="locations", visible=False)
+            fig.update_geos(fitbounds="locations", visible=False) 
             st.plotly_chart(fig,use_container_width=True)
 
 
@@ -308,7 +308,7 @@ if selected == "Explore Data":
                     featureidkey='properties.ST_NM',
                     locations='State',
                     color='Total_Users',
-                    color_continuous_scale='purd')
+                    color_discrete_sequence=px.colors.qualitative.Light24)
 
             fig.update_geos(fitbounds="locations", visible=False)
             st.plotly_chart(fig,use_container_width=True)
